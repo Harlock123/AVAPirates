@@ -10,7 +10,7 @@ namespace AVAPirates.Views;
 
 /// <summary>
 /// The game's screen: a fixed 1024×768 picture scaled to fit the window. Keys go to the engine by
-/// name and typed letters go to whatever is being typed (a name, a word to say, a mantra); a 60 Hz
+/// name and typed letters go to whatever is being typed (the captain's name); a 60 Hz
 /// timer runs the engine's clock (the fleet sails, guns fire, blades cross) and redraws. Keys held
 /// down steer and fence, so the canvas tells the engine when each comes up again too.
 /// </summary>

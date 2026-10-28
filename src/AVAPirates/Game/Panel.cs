@@ -9,7 +9,7 @@ public sealed record Opt(string Label, Action? Act, Action<int>? Adjust = null, 
 /// <summary>
 /// A menu or message over the game: a title, some paragraphs, and options to pick with the arrows and
 /// Enter (or their number). Panels stack; Escape runs <see cref="Back"/>, if the panel has one. A panel
-/// with an <see cref="Entry"/> takes typed words instead (a name, a word to say, a mantra).
+/// with an <see cref="Entry"/> takes typed words instead (the captain's name).
 /// </summary>
 public sealed class Panel
 {
